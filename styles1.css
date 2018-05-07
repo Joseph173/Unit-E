@@ -1,0 +1,71 @@
+﻿/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author:  Joy christensen 
+   Date:     
+   HTML5 and CSS3 Illustrated Unit E, Visual Workshop
+ */
+
+/* reset styles */
+article, body, div, footer, header, h1, h2, p {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* body and page container */
+body div.container {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+}
+
+/* headings */
+header {
+  padding: 0.5em;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+/* main content */
+article {
+  width: 62%;
+  padding: 3%;
+  float: left;
+  background-color: brown
+ 
+}
+article div.container {
+  padding: 2%;
+  background-color: white;
+}
+article h2 {
+  margin-bottom: 0.4em;
+  background-color: white
+}
+article p {
+  margin: 0 0 0.8em 1em;
+  background-color: blanchedalmond;
+}
+
+/* sidebar */
+aside {
+  width: 28%;
+  padding: 2%;
+  float: right;
+  background-color: cornsilk;
+}
+aside p {
+  padding: 0.4em;
+  margin-bottom: 0.6em;
+  background-color: brown
+}
+
+/* footer section */
+footer {
+  padding: 0.5em;
+background-color: cornflowerblue;
+clear: both;
+   text-align: right;
+  }
